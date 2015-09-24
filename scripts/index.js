@@ -34,21 +34,12 @@ angular.module('app', [])
 
             //监听options变化
             if (attrs.myOptions) {
-                $scope.$watch(attrs.myOptions, function () {
+                attrs.$observe('myOptions', function () {
                     var options = $scope.$eval(attrs.myOptions);
                     if (angular.isObject(options)) {
                         myChart.setOption(options);
                     }
                 }, true);
-            }
-
-            if (attrs.myRefresh) {
-                $scope.$watch(attrs.myRefresh, function () {
-                    var options = $scope.$eval(attrs.myOptions);
-                    if (angular.isObject(options)) {
-                        myChart.setOption(options);
-                    }
-                });
             }
 
         }
