@@ -1,2 +1,2 @@
 # Angular-ECharts
-Wrapping baidu echarts in angular,automatically binding the configuration data. 
+Wrapping baidu echarts into angular,automatically binding the configuration data. 
