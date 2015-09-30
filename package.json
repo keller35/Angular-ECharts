@@ -1,0 +1,19 @@
+{
+  "name": "Angular-ECharts",
+  "version": "1.0.0",
+  "description": "echarts in angular",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keller35/Angular-ECharts.git"
+  },
+  "keywords": [
+    "echarts",
+    "angular"
+  ],
+  "author": "keller35 <524495217@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keller35/Angular-ECharts/issues"
+  },
+  "homepage": "https://github.com/keller35/Angular-ECharts"
+}

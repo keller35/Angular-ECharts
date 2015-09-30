@@ -1,0 +1,26 @@
+{
+  "name": "Angular-ECharts",
+  "version": "1.0.0",
+  "homepage": "https://github.com/keller35/Angular-ECharts",
+  "authors": [
+    "keller35 <524495217@qq.com>"
+  ],
+  "description": "echarts in angular",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "echarts",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "echarts": "baidu-echarts#~2.0.1",
+    "jquery": "~2.1.4"
+  }
+}
